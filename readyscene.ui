@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>readyScene</class>
+ <widget class="QWidget" name="readyScene">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1080</width>
+    <height>1920</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{
+    background-color: #cf4f42;
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>20</number>
+   </property>
+   <property name="leftMargin">
+    <number>60</number>
+   </property>
+   <property name="topMargin">
+    <number>50</number>
+   </property>
+   <property name="rightMargin">
+    <number>60</number>
+   </property>
+   <property name="bottomMargin">
+    <number>530</number>
+   </property>
+   <item>
+    <widget class="QLabel" name="dataField">
+     <property name="font">
+      <font>
+       <pointsize>21</pointsize>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+    background-color: white;
+    color:black;
+    border-style: outset;
+    border-radius: 20px;
+    border-width: 5px; 
+    border-color:white;
+  
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+    padding: 20px;
+    padding-left :0px;
+    padding-top:10px;
+    color:white;
+    background-color: #cf4f42;
+    border: 0px;
+    
+}</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Если вы готовы к принятию &lt;/p&gt;&lt;p&gt;заказов, нажмите кнопку &amp;quot;Готов к заказу!&amp;quot;&lt;/p&gt;&lt;p&gt;(При появлении заказа на экране появится информация.)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="readyButton">
+     <property name="font">
+      <font>
+       <pointsize>23</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border: 3px;
+    border-radius: 20px;
+border-style:outset;
+    border-color:white;
+    color:white;
+    background-color:#cf4f42;
+    padding: 20px;
+}
+
+QPushButton:focus {
+	outline: none;
+}
+QPushButton:pressed{
+    background-color: #792d26;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Готов к заказу!</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="goMaps">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>23</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border: 3px;
+color:white;
+border-color:white;
+    border-radius: 20px;
+border-style:outset;
+    background-color: #cf4f42;
+    padding: 20px;
+}
+
+QPushButton:focus {
+	outline: none;
+}
+QPushButton:pressed{
+    background-color: #792d26;
+}
+
+</string>
+     </property>
+     <property name="text">
+      <string>Маршрут на карте.</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="callButton">
+     <property name="font">
+      <font>
+       <pointsize>23</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border: 3px;
+    color:white;
+    border-color:white;
+    border-radius: 20px;
+    border-style:outset;
+    background-color: #cf4f42;
+    padding: 20px;
+}
+
+QPushButton:focus {
+	outline: none;
+}
+QPushButton:pressed{
+    background-color: #792d26;
+}</string>
+     </property>
+     <property name="text">
+      <string>Позвонить клиенту.</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="doneButton">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>23</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border: 3px;
+    border-radius: 20px;
+border-style:outset;
+border-color:white;
+color:white;
+    background-color:#cf4f42;
+padding: 20px;
+}
+
+QPushButton:focus {
+	outline: none;
+}
+QPushButton:pressed{
+    background-color: #792d26;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Заказ доставлен.</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
